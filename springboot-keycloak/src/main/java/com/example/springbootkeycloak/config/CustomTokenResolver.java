@@ -27,7 +27,7 @@ public final class CustomTokenResolver implements BearerTokenResolver {
   public CustomTokenResolver() {
   }
 
-  //Thi method allows to extract token from request header & Parameter.
+  //This method allows to extract token from request header & Parameter.
 
   public String resolve(final HttpServletRequest request) {
     String authorizationHeaderToken = this.resolveFromAuthorizationHeader(request);
