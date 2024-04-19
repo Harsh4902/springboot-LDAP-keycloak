@@ -21,6 +21,22 @@
    - End users can customize configuration of LDAP server based on their requirements.
    - User can read project's readme for customize the LDAP configuration [here](./springboot-LDAP/README.md)
 
-## Approach
+## How to Run Project
+1. Install
+   ```
+   git clone https://github.com/Harsh4902/springboot-LDAP-keycloak.git
+
+   ```
+2. Run Tests of Springboot-Keyclaok
+   ```
+   cd springboot-keycloak
+   .\mvnw test
+   ```
+3. Run Tests of Springboot-LDAP
+   ```
+   cd springboot-LDAP
+   .\mvnw test
+   ```
+
 
    
